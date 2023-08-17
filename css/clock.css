@@ -1,0 +1,54 @@
+.iphone-cloce {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.iphone-cloce a {
+  font-size: 20px;
+  color: #fff;
+}
+
+.clock {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.clock .date {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: black;
+}
+.clock .clockTime {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.clock .clockTime .hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.clock .clockTime .hours h1 {
+  background-color: #000;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #fff;
+}
+.clock .clockTime .hours p {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.614);
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}

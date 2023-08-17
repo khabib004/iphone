@@ -1,0 +1,91 @@
+.taymer {
+  padding-top: 50px;
+  .set {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    .minuts {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      align-items: center;
+
+      label {
+        font-size: 35px;
+        color: #ef0;
+      }
+
+      select {
+        width: 100px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+
+    .secunds {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      align-items: center;
+
+      label {
+        font-size: 35px;
+        color: #ef0;
+
+      }
+
+      select {
+        width: 100px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+  }
+
+  .setting {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    justify-content: center;
+
+    .taymerStart {
+      padding: 6px 20px;
+      border-radius: 5px;
+      border: none;
+      font-size: 22px;
+      color: #fff;
+      transition: 0.5s;
+      background: rgb(0, 199, 0);
+    }
+
+    .taymerStop {
+      padding: 6px 20px;
+      border-radius: 5px;
+      border: none;
+      font-size: 22px;
+      color: #fff;
+      transition: 0.5s;
+      background: rgb(255, 1, 1);
+    }
+
+    .taymerReset {
+      padding: 6px 20px;
+      border-radius: 5px;
+      border: none;
+      font-size: 22px;
+      color: #fff;
+      transition: 0.5s;
+      background: rgb(13, 0, 255);
+    }
+  }
+}
